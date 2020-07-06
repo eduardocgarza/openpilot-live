@@ -28,8 +28,6 @@ export const AppContextProvider: React.FC = (props) => {
     const tripsData = await store.getAll()
     const trips = rebuildTripFromDB(tripsData)
     setTrips(trips)
-    
-    // Set AppContext ready
     setContextReady(true)
   }
   
