@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react"
+import { useHistory } from "react-router-dom"
 import { startupDB, DB_TRIPS_STORE } from "../../db/indexDB"
 import TripFull from "../../models/TripFull.model"
-import { useHistory } from "react-router-dom"
 import { AnalyzeRoute, DashboardRoute } from "../../router/Routes"
 import rebuildTripFromDB from "../../db/rebuildTripFromDB"
 import { IApplicationContext } from "../types/IAppContext"
@@ -37,9 +37,7 @@ export const AppContextProvider: React.FC = (props) => {
   }, [])
 
   useEffect(() => {
-    if (selectedTrips.length > 0) {
-      history.push(AnalyzeRoute)
-    }
+    if (selectedTrips.length > 0) history.push(AnalyzeRoute)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedTrips])
 

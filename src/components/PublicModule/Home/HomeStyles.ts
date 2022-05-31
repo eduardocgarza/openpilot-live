@@ -10,30 +10,31 @@ export const HomeWrapper = styled.section`
 
 export const JumbotronContainer = styled.header`
   margin-bottom: 30px;
+`
 
-  & img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    width: 600px;
-  }
+export const CommaMainImage = styled.img`
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
+  display: block;
+  height: auto;
+  width: 600px;
 `
 
 export const ContentContainer = styled.section`
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+`
 
-  & > h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 16px;
-  }
-  
-  & > p {
-    font-size: 15px;
-    margin-bottom: 16px;
-    max-width: 600px;
-  }
+export const HomeTitle = styled.h1`
+  font-size: 30px;
+  font-weight: bold;
+  font-family: InterLight;
+  margin-bottom: 16px;
+`
+
+export const HomeDescription = styled.p`
+  font-size: 15px;
+  margin-bottom: 10px;
 `
 
 export const HomeButton = styled.button`
@@ -41,8 +42,10 @@ export const HomeButton = styled.button`
   border: none;
   border-radius: 30px;
   color: white;
-  font-size: 15px;
-  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 8px 20px;
+  text-align: center;
 
   &:hover {
     background: #111;

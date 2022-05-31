@@ -1,24 +1,12 @@
 import React, { useState } from "react"
-import JSONIcon from "../../../Shared/Icons/JSONIcon"
-import TripFull from "../../../../models/TripFull.model"
-import carIcon from "../../../../assets/icons/carIcon.png"
-import { 
-  ItemIcon, 
-  ItemContent, 
-  ItemExpand 
-} from "../../../Shared/Layout/TableStyles"
-import {
-  ResultsItemWrapper,
-  ResultsItemPreview,
-  ItemButton,
-  ItemAction,
-  DeleteButton,
-  AnalyzeButton,
-  DetailsButton,
-} from "./ResultsItemStyles"
+import { ItemIcon, ItemContent, ItemExpand } from "../../../Shared/Layout/TableStyles"
+import { ResultsItemWrapper, ResultsItemPreview, ItemButton, ItemAction, DeleteButton, AnalyzeButton, DetailsButton } from "./ResultsItemStyles"
 import useAppContext from "../../../../state/context/AppContext"
 import { getStatsSingleHeader } from "../../../AnalysisModule/SingleAnalysis/SingleHeader/generateStatsItems"
 import StatsViewer from "../../../Shared/StatsViewer/StatsViewer"
+import JSONIcon from "../../../Shared/Icons/JSONIcon"
+import TripFull from "../../../../models/TripFull.model"
+import carIcon from "../../../../assets/icons/carIcon.png"
 
 interface ResultsItemProps {
   trip: TripFull

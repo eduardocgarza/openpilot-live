@@ -7,7 +7,6 @@ export const Wrapper = styled.section`
 `
 
 const Header = styled.h1`
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 `
 
@@ -27,7 +26,6 @@ export const HeaderThreeText = styled(Header)`
 `
 
 export const ParagraphText = styled.p`
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.6;
 `
