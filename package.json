@@ -18,7 +18,7 @@
     "google-maps-react": "^2.0.6",
     "idb": "^5.0.4",
     "jszip": "^3.5.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
