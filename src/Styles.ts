@@ -15,6 +15,4 @@ export const FileUpload = styled.div`
   margin-bottom: 10px;
 `
 
-export const Alert = styled.div`
-  
-`
+export const Alert = styled.div``

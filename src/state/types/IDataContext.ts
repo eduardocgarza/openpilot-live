@@ -5,10 +5,12 @@ export interface IDataContext {
   sortFilters: SortFilter[]
   addSortFilter: (s: SortFilter) => void
   deleteSortFilter: (f: SortFilter) => void
+
   // Search Filters
   searchFilters: SearchFilter[]
   addSearchFilter: (f: SearchFilter) => void
   deleteSearchFilter: (f: SearchFilter) => void
+  
   // Range Filters
   rangeFilters: RangeFilter[]
   addRangeFilter: (f: RangeFilter) => void

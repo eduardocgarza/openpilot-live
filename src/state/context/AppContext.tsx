@@ -72,10 +72,13 @@ export const AppContextProvider: React.FC = (props) => {
   
   const appContextValue: IApplicationContext = {
     contextReady,
+
     setTrips,
     trips,
+    
     setSelectedTrips,
     selectedTrips,
+    
     deleteTripItem,
     deleteAllItems
   }

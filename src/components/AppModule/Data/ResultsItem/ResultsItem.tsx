@@ -30,9 +30,6 @@ export default function ResultsItem (props: ResultsItemProps) {
   }
 
   function handleAnalyze () {
-    if (!analyzeMode) {
-      return setAnalyzeMode(true)
-    }
     setSelectedTrips([trip])
   }
 

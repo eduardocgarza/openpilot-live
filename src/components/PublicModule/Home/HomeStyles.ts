@@ -48,6 +48,6 @@ export const HomeButton = styled.button`
   text-align: center;
 
   &:hover {
-    background: #111;
+    background: #222;
   }
 `

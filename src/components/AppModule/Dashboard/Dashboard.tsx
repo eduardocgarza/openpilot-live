@@ -23,7 +23,6 @@ export default function Dashboard () {
     history.push(DataRoute)
   }
   
-  
   return (
     <Wrapper>
       <DataContainer>

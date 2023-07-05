@@ -7,8 +7,8 @@ const MARKER_INCREMENT = 60 // every 60 seconds
 function GoogleMapsContainer (props) {
   const { trip } = props
   const [showingInfoWindow, setShowingInfoWindow] = useState(false)
-  const [selectedPlace, setSelectedPlace] = useState({})
-  const [activeMarker, setActiveMarker] = useState({})
+  const [selectedPlace, setSelectedPlace] = useState(null)
+  const [activeMarker, setActiveMarker] = useState(null)
   
   const { google } = props
   const firstPoint = trip.coordinates[0]

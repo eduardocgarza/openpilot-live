@@ -40,14 +40,15 @@ ___
 
 ### 2 | Local
 
-Shakesearch is a React app with one additional dependency. To try it locally, clone the repository, install the `package.json` and then head over to [Google Maps API](https://developers.google.com/maps) and generate an API and save it in a file called `.env` at the top level of the directory.
-
+To try it locally, clone the repository, install the `package.json` and then head over to [Google Maps API](https://developers.google.com/maps) and generate an API and save it in a file called `.env` at the top level of the directory.
 ```
+
 # .env
 REACT_APP_GOOGLE_API_KEY=[YOUR GOOGLE MAPS API KEY, remove brackets]
 ```
 
 ```
+
 git clone https://github.com/eduardocgarza/openpilot-live
 cd openpilot-live
 yarn install
