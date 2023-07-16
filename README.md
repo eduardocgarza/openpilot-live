@@ -8,7 +8,7 @@ ___
 
 A dashboard for viewing and analyzing your rides using the Comma.ai self-driving car navigator. Manage your data in JSON and ZIP files, view your trips in tabular format, search and query trips with advanced parameters, and analyze specific trips with a Google Maps route viewer and advanced aggregate analysis.
 
-[Try [openpilot.netlify.app](https://openpilot.netlify.app)
+Try [openpilot.netlify.app](https://openpilot.netlify.app)
 
 ### Features 
 
@@ -35,7 +35,7 @@ ___
 
 ### 1 | Live
 
-[Try [openpilot.netlify.app](https://openpilot.netlify.app)
+Try [openpilot.netlify.app](https://openpilot.netlify.app)
 
 
 ### 2 | Local
