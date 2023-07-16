@@ -13,7 +13,7 @@ export const JumbotronContainer = styled.header`
 `
 
 export const CommaMainImage = styled.img`
-  border-radius: 5px;
+  border-radius: 30px;
   box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
   display: block;
   height: auto;
@@ -23,6 +23,7 @@ export const CommaMainImage = styled.img`
 export const ContentContainer = styled.section`
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  width: 600px;
 `
 
 export const HomeTitle = styled.h1`
@@ -38,16 +39,18 @@ export const HomeDescription = styled.p`
 `
 
 export const HomeButton = styled.button`
-  background: black;
+  background: #222;
   border: none;
   border-radius: 30px;
   color: white;
   font-size: 14px;
   margin: 10px 0;
-  padding: 8px 20px;
+  padding: 10px 20px;
   text-align: center;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 
   &:hover {
-    background: #222;
+    background: #000;
   }
 `

@@ -3,8 +3,9 @@ import { COLOR_MAIN_BLUE, COLOR_MAIN_BLUE_DARK } from "../../../../constants/Col
 import { Link } from "react-router-dom";
 
 export const SampleDataWrapper = styled.section`
-  border: 1px solid ${COLOR_MAIN_BLUE};
-  padding: 16px 20px;
+  border: 5px solid ${COLOR_MAIN_BLUE};
+  border-radius: 30px;
+  padding: 30px;
   margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;

@@ -1,10 +1,10 @@
 import React from "react"
+import { ParagraphItem } from "../../../Shared/Layout/Layout"
 import {
   SampleDataWrapper,
   Header,
   DownloadButton,
 } from "./SampleDataStyles"
-import { ParagraphItem } from "../../../Shared/Layout/Layout"
 
 export default function SampleData() {
   return (
